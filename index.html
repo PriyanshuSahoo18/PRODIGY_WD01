@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project-1</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+</head>
+<body>
+    <nav id="navbar">
+        <div class="logo">
+            <img src="logo1.jpeg" alt="logo">
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about us">About Us</a></li>
+            <li><a href="#rooms">Our Rooms</a></li>
+            <li><a href="#contact us">Contact Us</a></li>
+        </ul>
+        <div class="burger">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+    
+    <section id="home" class="msd">
+        <div class="hero-content">
+            <h1>Discover the perfect Balance of Hospitality,Luxury and Comfort</h1>
+            <p>We are focused on providing clients to highest levels of comfort and excellent affordable rates</p>
+            <button id="exploreButton">Explore Rooms</button>
+        </div>
+    </section>
+
+    <section id="about us" class="about">
+        <h2>About Us</h2>
+        <!-- <div class="hero"> -->
+
+            <div class="card1">
+                <img src="dinning.jpeg" alt="Dinning">
+            </div>
+            <p class="para">We serve a daily buffet breakfast, which includes fresh breads and pastries, <br>along with cold cuts and cheeses. You can also order eggs any style from our waiters. <br> For lunch or dinner, visit Tablafina, our gastrobar with a wide selection of dishes including local specialties. <br>
+                And later on, you can enjoy a beer or a cocktail here, or in warmer months on the sun-drenched roof terrace.
+            </p>
+        <!-- </div> -->
+    </section>
+
+    <section id="rooms" class="rooms">
+        <h2>Our Rooms</h2>
+        <div class="rooms-cards">
+            <div class="card">
+                <img src="room1.jpeg" alt="Room1">
+                <h3>Luxury Hotel Room</h3>
+                <p>Our king size four poster provides views over landscaped gardens. It has a seating area, ample storage, digital safe and mini fridge.</p>
+            </div>
+            <div class="card">
+                <img src="room2.jpeg" alt="Room2">
+                <h3>Modern Hotel Room </h3>
+                <p>As our smallest budget rooms, the Compact bedrooms are suited for single occupancy or short-stay double occupancy as they have limited space and storage.</p>
+            </div>
+            <div class="card">
+                <img src="room3.jpeg" alt="Room3">
+                <h3>Beach Room</h3>
+                <p>The friendly family management and the convenient access to the private beach* are just a few of the aspects that make the hotel a preferred destination for lovers of the sea, art and hiking trips on some of the most beautiful nature trails.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact us" class="contact">
+        <h2>Get In Touch</h2>
+        <form id="contactForm">
+            <input type="text" id="name" name="ame" placeholder="Your Name" required>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+            <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2024 TravelExplore. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
